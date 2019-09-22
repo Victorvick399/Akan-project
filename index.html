@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>akanname</title>                                               
     <link href="css/styles.css" rel="stylesheet"  type="text/css">
+    <script type="text/javascript" src="js/main.js"></script>
   </head>
   <body background="akan.jpeg">
       <div class="wrapper">
@@ -31,7 +32,11 @@
             <form>
                 <div class="Gender">
                   <label for="Gender">Gender:</label>
-                   <input type="text" class="form-control" id="Gender">
+                      <input list="Gender" name="Gender">
+                      <datalist id="Gender">
+                        <option value="Male">
+                        <option value="Female">
+                      </datalist>
                 </div>
                 <br>
             </form>
