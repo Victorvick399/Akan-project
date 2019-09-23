@@ -8,4 +8,8 @@ function receiveInput(){
     var gender = parseInt(document.getElementById("gender").Value);
 }
 
-var dayOfTheWeek = (((century/4)-2*century-1)+((5*year/4))+((25*(month+1)/10))+day)%7
+var dayOfTheWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
+var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+
+ 
