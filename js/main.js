@@ -7,3 +7,5 @@ function receiveInput(){
     var century = parseInt(document.getElementById("century").Value);
     var gender = parseInt(document.getElementById("gender").Value);
 }
+
+var dayOfTheWeek = (((century/4)-2*century-1)+((5*year/4))+((25*(month+1)/10))+day)%7
