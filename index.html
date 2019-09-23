@@ -11,38 +11,38 @@
         <h1>AKAN NAME</h1>
         <p>In Ghana,children are given their first name as a 'day name' which corresponds to the day in the week they were born<br>.If you would like to know the Akan name you would have been given fill the forms below and submit.</p>
             <form onsubmit="receiveInput()">
-                <div class="day">
-                  <label for="Day">Day:</label>
-                  <input type="number" class="form-control" id="day" placeholder="dd" name="dd" min="1"
-                  max="31">
+              <div class="day">
+                <label for="Day">Day:</label>
+                <input type="number" class="form-control" id="day" placeholder="dd" name="dd" min="1"
+                max="31">
+              </div>
+              <br>
+              <div class="month">
+                <label for="pwd">Month:</label>
+                <input type="number" class="form-control" id="month" placeholder="ww" min="1" max="12">
+              </div>
+              <br>
+              <div class="year">
+                <label for="pwd">Year:</label>
+                <input type="number" class="form-control" id="year" placeholder="yy" min="00"
+                max="99">
+              </div>
+              <br>
+              <div class="century">
+                  <label for="pwd">Century:</label>
+                  <input type="number" class="form-control" id="century" placeholder="cc" min="19"
+                  max="21">
+              </div>
+              <br>
+              <div class="Gender" id="gender">
+                  <label for="Gender">Gender:</label>
+                    <select>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                    </select>
                 </div>
                 <br>
-                <div class="month">
-                  <label for="pwd">Month:</label>
-                  <input type="number" class="form-control" id="month" placeholder="ww" min="1" max="12">
-                </div>
-                <br>
-                <div class="year">
-                  <label for="pwd">Year:</label>
-                  <input type="number" class="form-control" id="year" placeholder="yy" min="00"
-                  max="99">
-                </div>
-                <br>
-                <div class="century">
-                    <label for="pwd">Century:</label>
-                    <input type="number" class="form-control" id="century" placeholder="cc" min="19"
-                    max="21">
-                </div>
-                <br>
-                <div class="Gender">
-                    <label for="Gender">Gender:</label>
-                      <select>
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
-                      </select>
-                  </div>
-                  <br>
-                  <input type="submit">
+                <input type="submit">
           </form>
       </div>
       <script type="text/javascript" src="js/main.js"></script>
