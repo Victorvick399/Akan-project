@@ -18,51 +18,51 @@ function receiveInput(){
     switch(dayOfTheWeek){
         case 0:
         if(gender="male"){
-            alert("You're akan name is " + maleNames[0])
+            alert("You're akan name is" + " " + maleNames[0])
         }else{
-            alert("You're akan name is " + femaleNames[0])
+            alert("You're akan name is" + " " + femaleNames[0])
         }
         break;
         case 1:
         if(gender="male"){
-            alert("You're akan name is " + maleNames[1])
+            alert("You're akan name is" + " " + maleNames[1])
         }else{
-            alert("You're akan name is " + femaleNames[1])
+            alert("You're akan name is" + " " + femaleNames[1])
         }
         break;
         case 2:
         if(gender="male"){
-            alert("You're akan name is " + maleNames[2])
+            alert("You're akan name is" + " " + maleNames[2])
         }else{
-            alert("You're akan name is " + femaleNames[2])
+            alert("You're akan name is" + " " + femaleNames[2])
         }
         break;
         case 3:
         if(gender="male"){
-            alert("You're akan name is " + maleNames[3])
+            alert("You're akan name is" + " " + maleNames[3])
         }else{
-            alert("You're akan name is " + femaleNames[3])
+            alert("You're akan name is" + " " + femaleNames[3])
         }
         break;
         case 4:
         if(gender="male"){
-            alert("You're akan name is " + maleNames[4])
+            alert("You're akan name is " + " " + maleNames[4])
         }else{
-            alert("You're akan name is " + femaleNames[4])
+            alert("You're akan name is" + " " + femaleNames[4])
         }
         break;
         case 5:
         if(gender="male"){
-            alert("You're akan name is " + maleNames[5])
+            alert("You're akan name is" + " " + maleNames[5])
         }else{
-            alert("You're akan name is " + femaleNames[5])
+            alert("You're akan name is" + " " + femaleNames[5])
         }
         break;
         case 6:
         if(gender="male"){
-            alert("You're akan name is " + maleNames[6])
+            alert("You're akan name is" + " " + maleNames[6])
         }else{
-            alert("You're akan name is " + femaleNames[6])
+            alert("You're akan name is" + " " + femaleNames[6])
         }
 
     }
